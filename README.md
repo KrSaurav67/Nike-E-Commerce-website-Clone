@@ -25,6 +25,21 @@ This project replicates the design and layout of Nike’s online store, includin
    ```bash
    git clone git@github.com:KrSaurav67/Nike-E-Commerce-website-Clone.git
 
+2. Project structure
+    Nike-E-Commerce-website-Clone/
+    ├── nike.html        # Main HTML file
+    ├── nike.css         # Stylesheet
+    ├── project/         # Contains all images used in the project
+    └── README.md        # Documentation
+
+3. Run the project
+    - Open nike.html in your browser (double-click or right-click → "Open with Browser").
+    - Ensure the project/ folder with images is in the same directory so all visuals load correctly.
+
+4. Then visit: http://localhost:8000/nike.html
+
+
+
 ## 🎯 Purpose
 This project is created for educational purposes only.
 It is not affiliated with Nike and is intended to practice front-end development skills.
