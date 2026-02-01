@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,head{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(202, 202, 202);
+}
+.main{
+    
+}
+.header{
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 50px;
+}
+.leftside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    height: 25px;
+    width: auto;
+    margin-right: 80px;
+    cursor: pointer;
+}
+.leftside ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.leftside ul li{
+    margin-right: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.rightside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.searchicon{
+    cursor: pointer;
+    margin-right: 40px;
+}
+.fav{
+    margin-right: 40px;
+    cursor: pointer;
+}
+.cart{
+    margin-right: 0;
+    padding-right: 0;
+    cursor: pointer;
+}
+.middle{
+    height: 75vh;
+    display: flex;
+}
+.middleleft{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top: 125px;
+    width: 40%;
+}
+.quote{
+    font-size:25px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.h1quote{
+    font-size: 60px;
+    margin-bottom: 25px;
+    font-weight: 900;
+}
+.aboutpara{
+    font-size:18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.learn,.Shop{
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 17px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border-radius: 20px;
+    border-width: 0px;
+    margin-right: 25px;
+    border-top-left-radius: 0;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.7s;
+    text-decoration: none;
+}
+.Shop:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+}
+.shop:active{
+    opacity: 0.6;
+}
+.learn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.learn:active{
+    opacity: 0.6;
+}
+.middleright{
+    height: 100%;
+    width: 60%;
+    padding-top: 65px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.middleright::-webkit-scrollbar{
+    display: none;
+}
+.shoe-1{
+    height: 450px;
+    width: 320px;
+    cursor: pointer;
+    box-shadow: 0 0 5px 1px rgb(117, 117, 117);
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+.shoe1{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 15%;
+    
+}
+.name{
+    font-size: 17px;
+    position: absolute;
+    bottom: 23%;
+    font-weight: 600;
+}
+.categ{
+    color: rgb(108, 108, 108);
+    font-size: 17px;
+    position: absolute;
+    bottom: 17%;
+}
+.price{
+    font-size: 17px;
+    position: absolute;
+    bottom: 11%;
+}
+
+.middledown{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 25px;
+    white-space: nowrap;
+    overflow-x: auto;
+    
+}
+.shopbysportcategory{
+    padding-left: 15px;
+}
+
+.shopbysport{
+    height: 100%;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    display: inline-block;
+}
+.middledown::-webkit-scrollbar{
+    display: none;
+}
+.Qr{
+    padding-top: 50px;
+}
+.Qrimg{
+    height: 100px;
+    width: 100%;
+}
+.spotlight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.optionsimg{
+    height: 110px;
+}
+.headline{
+    font-size:80px;
+    font-weight:900;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.para{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.options{
+    padding-top: 100px;
+}
+.footer{
+    padding-top: 100px;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    padding-bottom: 10px;
+}
+.menulink{
+    color: black;
+    text-decoration: none;
+}
+.menulink:hover{
+    text-decoration: underline;
+}
