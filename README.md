@@ -32,13 +32,13 @@ It is not affiliated with Nike and is intended to practice front-end development
 ## 📸 Screenshots
 
 ### Homepage
-![Homepage Screenshot](/Nike-E-Commerce-website-Clone/project/image-1.png)
+![Homepage Screenshot](project/image-1.png)
 
 ### Product Page
-![Product Page Screenshot](/Nike-E-Commerce-website-Clone/project/image-2.png)
+![Product Page Screenshot](project/image-2.png)
 
 ### Cart Page
-![Cart Page Screenshot](/Nike-E-Commerce-website-Clone/project/image-3.png)
+![Cart Page Screenshot](project/image-3.png)
 ## 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
