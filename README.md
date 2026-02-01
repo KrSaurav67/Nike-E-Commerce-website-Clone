@@ -30,10 +30,15 @@ This project is created for educational purposes only.
 It is not affiliated with Nike and is intended to practice front-end development skills.
 
 ## 📸 Screenshots
-(image-1.png)
-(image-2.png)
-(image-3.png)
 
+### Homepage
+![Homepage Screenshot](/Nike-E-Commerce-website-Clone/project/image-1.png)
+
+### Product Page
+![Product Page Screenshot](/Nike-E-Commerce-website-Clone/project/image-2.png)
+
+### Cart Page
+![Cart Page Screenshot](/Nike-E-Commerce-website-Clone/project/image-3.png)
 ## 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
